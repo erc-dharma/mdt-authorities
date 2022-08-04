@@ -4,10 +4,10 @@ Fields,Identifier of the resource,Origin of the metadata,DHARMA import,Editor of
 Description of the fields,"Identifier of the monument. 
  Syntax: MON00001",Origin of the metadata: database or publication,Date of conversion of previously available metadata to the DHARMA model,"Person(s) who supplied metadata (use the DHARMA members' Ids and separate them by $, if more than one editor)",Start date of metadata input/editing for DHARMA (YYYY-MM-DD),"Person(s) who entered/edited metadata (use the DHARMA members' Ids and separate them by $, if more than one editor)","Validating person (use the DHARMA members' Ids and separate them by $, if more than one editor)",Date of metadata validation (YYYY-MM-DD),Project responsible for making these metadata available,Corpus to which the inscription pertains,Licence applicable to metadata,"Identifier of the monument. 
  Syntax: MON00001",Name of the monument,Define the language of the name,Normalized syntax,Monument type,Monument type,Material type,Material type,Iconography and/or decoration observed on the monument (free text),Global height,Global width,Global depth,Global diameter,Global circumference,State of preservation of the monument,Gregorian calendar,Gregorian calendar,Description of what is known or recorded about the origin and subsequent history of the monument (free text),Remarks on monument-related metadata (free text),,ID of the place (from places' authority list),Coordindates if you have a specific topographic data,Coordindates if you have a specific topographic data,Inventory number(s) of the monument,The governmental holder of (property) rights to the monument,Institution or private person authorizing access to the monument,Licence applicable to the monument,
-,MON00001,,,emfr,2021-10-28,,,,,DHARMA,CC0,MON00001,Vaṭāraṇyēśvara,Tamil,Vadaranyeshvara,,,,,,,,,,,,,,,,,,,PLC00001,,,,,
-,MON00002,,,emfr,2021-10-29,,,,,DHARMA,CC0,MON00002,Mūvarkōyil,Tamil,Muvarkoyil,,,,,,,,,,,,,,,,,,,PLC00002,,ASI,,,
-,MON00003,,,,2021-10-30,,,,,DHARMA,CC0,MON00003,Aivarkōyil,Tamil,Aivarkoyil,,,,,,,,,,,,,,,,,,,PLC00002,,ASI,,,
-,MON00004,,,,2021-10-31,,,,,DHARMA,CC0,MON00004,Muccukuṇṭēśvara,Tamil,Muchukundeshvara,,,,,,,,,,,,,,,,,,,PLC00002,,ASI,,,
+,MON00001,,,emfr,2021-10-28,,,,,DHARMA,CC0,MON00001,Vaṭāraṇyēśvara,Tamil,Vadaranyeshvara,,,,,,,,,,,,,,,,,PLC00001,,,,,,,
+,MON00002,,,emfr,2021-10-29,,,,,DHARMA,CC0,MON00002,Mūvarkōyil,Tamil,Muvarkoyil,,,,,,,,,,,,,,,,,PLC00002,,,,ASI,,,
+,MON00003,,,,2021-10-30,,,,,DHARMA,CC0,MON00003,Aivarkōyil,Tamil,Aivarkoyil,,,,,,,,,,,,,,,,,PLC00002,,,,ASI,,,
+,MON00004,,,,2021-10-31,,,,,DHARMA,CC0,MON00004,Muccukuṇṭēśvara,Tamil,Muchukundeshvara,,,,,,,,,,,,,,,,,PLC00002,,,,ASI,,,
 ,MON00005,,,,,,,,,DHARMA,CC0,MON00005,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,MON00006,,,,,,,,,DHARMA,CC0,MON00006,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,MON00007,,,,,,,,,DHARMA,CC0,MON00007,,,,,,,,,,,,,,,,,,,,,,,,,,,
