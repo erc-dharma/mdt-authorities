@@ -26,6 +26,9 @@ jobs:
        - name: run xslt with jave in command lines for monuments
          run: java -jar ./project-documentation/editorialStylesheets/pipelineTools/saxon9he.jar -it -xsl:./project-documentation/stylesheets/mdt_inscriptions/mdtMonument_start.xsl -o:./temporary/DHARMA_monuments.xml
 
+       - name: run xslt with jave in command lines for collections
+         run: java -jar ./project-documentation/editorialStylesheets/pipelineTools/saxon9he.jar -it -xsl:./project-documentation/stylesheets/mdt_inscriptions/mdtCollection_start.xsl -o:./temporary/DHARMA_collections.xml
+
        - name: Updating the edited texts in the repository
          run: |
           git config user.name github-actions
