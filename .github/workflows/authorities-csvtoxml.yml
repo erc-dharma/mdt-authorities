@@ -17,12 +17,15 @@ jobs:
        - name: Clone project-doc with Ant
          run: ant -noinput -buildfile clone-projectDoc.xml
 
-       - name: run xslt with jave in command lines
-         run: java -jar ./project-documentation/editorialStylesheets/pipelineTools/saxon9he.jar -it -xsl:./project-documentation/stylesheets/mdt_inscriptions/mdtPlace_start.xsl -o:./temporary/places.xml
+       - name: run xslt with jave in command lines for places
+         run: java -jar ./project-documentation/editorialStylesheets/pipelineTools/saxon9he.jar -it -xsl:./project-documentation/stylesheets/mdt_inscriptions/mdtPlace_start.xsl -o:./temporary/DHARMA_places.xml
 
-       - name: run xslt with jave in command lines
-         run: java -jar ./project-documentation/editorialStylesheets/pipelineTools/saxon9he.jar -it -xsl:./project-documentation/stylesheets/mdt_inscriptions/mdtPerson_start.xsl -o:./temporary/persons.xml
-         
+       - name: run xslt with jave in command lines for persons
+         run: java -jar ./project-documentation/editorialStylesheets/pipelineTools/saxon9he.jar -it -xsl:./project-documentation/stylesheets/mdt_inscriptions/mdtPerson_start.xsl -o:./temporary/DHARMA_persons.xml
+
+       - name: run xslt with jave in command lines for monuments
+         run: java -jar ./project-documentation/editorialStylesheets/pipelineTools/saxon9he.jar -it -xsl:./project-documentation/stylesheets/mdt_inscriptions/mdtMonument_start.xsl -o:./temporary/DHARMA_monuments.xml
+
        - name: Updating the edited texts in the repository
          run: |
           git config user.name github-actions
