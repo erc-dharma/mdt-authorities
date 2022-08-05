@@ -1,7 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project basedir="." name="dharma-test">
 
-  <!-- Split  XML to several  -->
+  <macrodef name = "git">
+      <attribute name = "command" />
+      <attribute name = "dir" default = "" />
+      <element name = "args" optional = "true" />
+      <sequential>
+          <echo message = "git @{command}" />
+          <exec executable = "git" dir = "@{dir}">
+              <arg value = "@{command}" />
+              <args/>
+          </exec>
+      </sequential>
+  </macrodef>
+  <macrodef name = "git-clone-pull">
+      <attribute name = "repository" />
+      <attribute name = "dest" />
+      <sequential>
+          <git command = "clone">
+              <args>
+                  <arg value = "@{repository}" />
+                  <arg value = "@{dest}" />
+              </args>
+          </git>
+          <git command = "pull" dir = "@{dest}" />
+      </sequential>
+  </macrodef>
+
+  <!-- git clone then pull -->
+  <git-clone-pull repository="https://github.com/erc-dharma/project-documentation.git" dest="project-documentation" />
+
+  <!-- display  html -->
   <xslt in="./temporary/DHARMA_persons.xml" out="./output/DHARMA_persons.html" force="true" style="./project-documentation/stylesheets/mdt-authorities/Persons-start.xsl" extension=".html" useImplicitFileset="false" classpath="./project-documentation/editorialStylesheets/pipelineTools/saxon9he.jar">
       <factory name="net.sf.saxon.TransformerFactoryImpl"/>
   </xslt>
