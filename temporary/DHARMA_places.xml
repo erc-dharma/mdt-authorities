@@ -21973,146 +21973,6 @@
             <geo> </geo>
             <height/>
          </location>
-         <listBibl>
-            <bibl>
-               <ptr target="bib:Fields group"/>
-            </bibl>
-         </listBibl>
-         <note>
-            <ab type="history"/>
-            <ab type="history"/>
-         </note>
-      </place>
-      <place xml:id="" type="">
-         <placeName xml:lang="" xml:id="n1"/>
-         <placeName type="normalized" corresp="#n1"/>
-         <state type="existence" notBefore=""/>
-         <country>Location</country>
-         <region type="state"/>
-         <region type="province"/>
-         <region type="district"/>
-         <region type="subdistrict"/>
-         <settlement type="city-village"/>
-         <settlement type="hamlet"/>
-         <settlement type="site"/>
-         <location>
-            <geo> </geo>
-            <height/>
-         </location>
-         <listBibl/>
-         <note>
-            <ab type="history"/>
-            <ab type="history"/>
-         </note>
-      </place>
-      <place xml:id="Identifier of the place" type="Type of place">
-         <placeName xml:lang="" xml:id="n1">Name of the place</placeName>
-         <placeName type="normalized" corresp="#n1">Name of the place</placeName>
-         <state type="existence" notBefore="Date notBefore"/>
-         <country>Country</country>
-         <region type="state">State</region>
-         <region type="province">Province</region>
-         <region type="district">District</region>
-         <region type="subdistrict">Subdistrict</region>
-         <settlement type="city-village">City/Village</settlement>
-         <settlement type="hamlet">Hamlet</settlement>
-         <settlement type="site">Site</settlement>
-         <location>
-            <geo>Coordinates latitude Coordinates longitude</geo>
-            <height>Coordinates elevation</height>
-         </location>
-         <listBibl>
-            <bibl>
-               <ptr target="bib:Bibliographical references"/>
-            </bibl>
-         </listBibl>
-         <note>
-            <ab type="history">History of the place</ab>
-            <ab type="history">Remarks</ab>
-         </note>
-      </place>
-      <place xml:id="" type="">
-         <placeName xml:lang="" xml:id="n1"/>
-         <placeName type="normalized" corresp="#n1"/>
-         <state type="existence" notBefore=""/>
-         <country/>
-         <region type="state"/>
-         <region type="province"/>
-         <region type="district"/>
-         <region type="subdistrict"/>
-         <settlement type="city-village"/>
-         <settlement type="hamlet"/>
-         <settlement type="site"/>
-         <location>
-            <geo> </geo>
-            <height/>
-         </location>
-         <listBibl/>
-         <note>
-            <ab type="history"/>
-            <ab type="history"/>
-         </note>
-      </place>
-      <place xml:id="Corpus to which the inscription pertains" type="">
-         <placeName xml:lang="" xml:id="n1">Licence applicable to metadata</placeName>
-         <placeName type="normalized" corresp="#n1"/>
-         <state type="existence" notBefore=""/>
-         <country/>
-         <region type="state"/>
-         <region type="province"/>
-         <region type="district"/>
-         <region type="subdistrict"/>
-         <settlement type="city-village"/>
-         <settlement type="hamlet"/>
-         <settlement type="site"/>
-         <location>
-            <geo> </geo>
-            <height/>
-         </location>
-         <listBibl/>
-         <note>
-            <ab type="history"/>
-            <ab type="history"/>
-         </note>
-      </place>
-      <place xml:id="" type="">
-         <placeName xml:lang="" xml:id="n1"/>
-         <placeName type="normalized" corresp="#n1"/>
-         <state type="existence" notBefore=""/>
-         <country>Description of what is known or recorded about the origin and subsequent history of the place (free text)</country>
-         <region type="state">Remarks on place-related metadata (free text)</region>
-         <region type="province"/>
-         <region type="district"/>
-         <region type="subdistrict"/>
-         <settlement type="city-village"/>
-         <settlement type="hamlet"/>
-         <settlement type="site"/>
-         <location>
-            <geo> </geo>
-            <height/>
-         </location>
-         <listBibl/>
-         <note>
-            <ab type="history"/>
-            <ab type="history"/>
-         </note>
-      </place>
-      <place xml:id="PLC01000" type="">
-         <placeName xml:lang="" xml:id="n1"/>
-         <placeName type="normalized" corresp="#n1"/>
-         <state type="existence" notBefore=""/>
-         <country/>
-         <region type="state"/>
-         <region type="province"/>
-         <region type="district"/>
-         <region type="subdistrict"/>
-         <settlement type="city-village"/>
-         <settlement type="hamlet"/>
-         <settlement type="site"/>
-         <location>
-            <geo> </geo>
-            <height/>
-         </location>
          <listBibl/>
          <note>
             <ab type="history"/>
@@ -44081,124 +43941,6 @@
          <state type="existence" notBefore=""/>
          <country/>
          <region type="state"/>
-         <region type="province"/>
-         <region type="district"/>
-         <region type="subdistrict"/>
-         <settlement type="city-village"/>
-         <settlement type="hamlet"/>
-         <settlement type="site"/>
-         <location>
-            <geo> </geo>
-            <height/>
-         </location>
-         <listBibl>
-            <bibl>
-               <ptr target="bib:Fields group"/>
-            </bibl>
-         </listBibl>
-         <note>
-            <ab type="history"/>
-            <ab type="history"/>
-         </note>
-      </place>
-      <place xml:id="" type="">
-         <placeName xml:lang="" xml:id="n1"/>
-         <placeName type="normalized" corresp="#n1"/>
-         <state type="existence" notBefore=""/>
-         <country>Location</country>
-         <region type="state"/>
-         <region type="province"/>
-         <region type="district"/>
-         <region type="subdistrict"/>
-         <settlement type="city-village"/>
-         <settlement type="hamlet"/>
-         <settlement type="site"/>
-         <location>
-            <geo> </geo>
-            <height/>
-         </location>
-         <listBibl/>
-         <note>
-            <ab type="history"/>
-            <ab type="history"/>
-         </note>
-      </place>
-      <place xml:id="Identifier of the place" type="Type of place">
-         <placeName xml:lang="" xml:id="n1">Name of the place</placeName>
-         <placeName type="normalized" corresp="#n1">Name of the place</placeName>
-         <state type="existence" notBefore="Date notBefore"/>
-         <country>Country</country>
-         <region type="state">State</region>
-         <region type="province">Province</region>
-         <region type="district">District</region>
-         <region type="subdistrict">Subdistrict</region>
-         <settlement type="city-village">City/Village</settlement>
-         <settlement type="hamlet">Hamlet</settlement>
-         <settlement type="site">Site</settlement>
-         <location>
-            <geo>Coordinates latitude Coordinates longitude</geo>
-            <height>Coordinates elevation</height>
-         </location>
-         <listBibl>
-            <bibl>
-               <ptr target="bib:Bibliographical references"/>
-            </bibl>
-         </listBibl>
-         <note>
-            <ab type="history">History of the place</ab>
-            <ab type="history">Remarks</ab>
-         </note>
-      </place>
-      <place xml:id="" type="">
-         <placeName xml:lang="" xml:id="n1"/>
-         <placeName type="normalized" corresp="#n1"/>
-         <state type="existence" notBefore=""/>
-         <country/>
-         <region type="state"/>
-         <region type="province"/>
-         <region type="district"/>
-         <region type="subdistrict"/>
-         <settlement type="city-village"/>
-         <settlement type="hamlet"/>
-         <settlement type="site"/>
-         <location>
-            <geo> </geo>
-            <height/>
-         </location>
-         <listBibl/>
-         <note>
-            <ab type="history"/>
-            <ab type="history"/>
-         </note>
-      </place>
-      <place xml:id="Corpus to which the inscription pertains" type="">
-         <placeName xml:lang="" xml:id="n1">Licence applicable to metadata</placeName>
-         <placeName type="normalized" corresp="#n1"/>
-         <state type="existence" notBefore=""/>
-         <country/>
-         <region type="state"/>
-         <region type="province"/>
-         <region type="district"/>
-         <region type="subdistrict"/>
-         <settlement type="city-village"/>
-         <settlement type="hamlet"/>
-         <settlement type="site"/>
-         <location>
-            <geo> </geo>
-            <height/>
-         </location>
-         <listBibl/>
-         <note>
-            <ab type="history"/>
-            <ab type="history"/>
-         </note>
-      </place>
-      <place xml:id="" type="">
-         <placeName xml:lang="" xml:id="n1"/>
-         <placeName type="normalized" corresp="#n1"/>
-         <state type="existence" notBefore=""/>
-         <country>Description of what is known or recorded about the origin and subsequent history of the place (free text)</country>
-         <region type="state">Remarks on place-related metadata (free text)</region>
          <region type="province"/>
          <region type="district"/>
          <region type="subdistrict"/>
@@ -66194,6 +65936,28 @@
          </note>
       </place>
       <place xml:id="PLC02999" type="">
+         <placeName xml:lang="" xml:id="n1"/>
+         <placeName type="normalized" corresp="#n1"/>
+         <state type="existence" notBefore=""/>
+         <country/>
+         <region type="state"/>
+         <region type="province"/>
+         <region type="district"/>
+         <region type="subdistrict"/>
+         <settlement type="city-village"/>
+         <settlement type="hamlet"/>
+         <settlement type="site"/>
+         <location>
+            <geo> </geo>
+            <height/>
+         </location>
+         <listBibl/>
+         <note>
+            <ab type="history"/>
+            <ab type="history"/>
+         </note>
+      </place>
+      <place xml:id="" type="">
          <placeName xml:lang="" xml:id="n1"/>
          <placeName type="normalized" corresp="#n1"/>
          <state type="existence" notBefore=""/>

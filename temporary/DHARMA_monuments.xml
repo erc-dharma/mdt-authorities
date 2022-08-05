@@ -36964,266 +36964,6 @@
                   </licence>
                </availability>
             </adminInfo>
-            <listBibl>
-               <bibl>
-                  <ptr target="bib:Fields group"/>
-               </bibl>
-            </listBibl>
-         </additional>
-      </object>
-      <object xml:id="" type="">
-         <objectIdentifier>
-            <objectName xml:lang="" xml:id="n1"/>
-            <objectName type="normalized" corresp="#n1"/>
-            <idno/>
-            <placeName>
-               <settlement ref="">Location</settlement>
-            </placeName>
-         </objectIdentifier>
-         <physDesc>
-            <objectDesc>
-               <supportDesc>
-                  <support>
-                     <material/>
-                     <dimensions>
-                        <height>Monument dimensions</height>
-                     </dimensions>
-                  </support>
-                  <condition/>
-               </supportDesc>
-            </objectDesc>
-            <decoDesc>
-               <p/>
-            </decoDesc>
-         </physDesc>
-         <history>
-            <origin>
-               <origDate notBefore="" notAfter="">–</origDate>
-               <p/>
-            </origin>
-            <ab type="remarks"/>
-         </history>
-         <additional>
-            <adminInfo>
-               <availability>
-                  <p>Governmental rights holder: Rights</p>
-                  <licence>
-                     <p/>
-                  </licence>
-               </availability>
-            </adminInfo>
-            <listBibl/>
-         </additional>
-      </object>
-      <object xml:id="Identifier of the monument"
-              type="Monument type 1 Monument type 2">
-         <objectIdentifier>
-            <objectName xml:lang="" xml:id="n1">Name of the monument</objectName>
-            <objectName type="normalized" corresp="#n1">Name of the monument</objectName>
-            <idno>Inventory number</idno>
-            <placeName>
-               <settlement ref="Place ID">Name of the place</settlement>
-               <geo>Location coordinates (latitude) Location coordinates (longitude)</geo>
-            </placeName>
-         </objectIdentifier>
-         <physDesc>
-            <objectDesc>
-               <supportDesc>
-                  <support>
-                     <material>Material type 1</material>
-                     <material>Material type 2</material>
-                     <dimensions>
-                        <height>Height</height>
-                        <width>Width</width>
-                        <depth>Depth</depth>
-                        <dim type="diameter">Diameter</dim>
-                        <dim type="circumference">Circumference</dim>
-                     </dimensions>
-                  </support>
-                  <condition>Condition</condition>
-               </supportDesc>
-            </objectDesc>
-            <decoDesc>
-               <p>Iconography and decoration</p>
-            </decoDesc>
-         </physDesc>
-         <history>
-            <origin>
-               <origDate notBefore="Date (notBefore)" notAfter="Date (notAfter)">Date (notBefore)–Date (notAfter)</origDate>
-               <p>History of the monument</p>
-            </origin>
-            <ab type="remarks">Remarks</ab>
-         </history>
-         <additional>
-            <adminInfo>
-               <availability>
-                  <p>Governmental rights holder: Governmental rights holder</p>
-                  <p>Institution or private person right holder: Institution or private person</p>
-                  <licence>
-                     <p>Distribution rights of the artefact</p>
-                  </licence>
-               </availability>
-            </adminInfo>
-            <listBibl>
-               <bibl>
-                  <ptr target="bib:Bibliographical references"/>
-               </bibl>
-            </listBibl>
-         </additional>
-      </object>
-      <object xml:id="" type="">
-         <objectIdentifier>
-            <objectName xml:lang="" xml:id="n1"/>
-            <objectName type="normalized" corresp="#n1"/>
-            <idno/>
-         </objectIdentifier>
-         <physDesc>
-            <objectDesc>
-               <supportDesc>
-                  <support>
-                     <material/>
-                  </support>
-                  <condition/>
-               </supportDesc>
-            </objectDesc>
-            <decoDesc>
-               <p/>
-            </decoDesc>
-         </physDesc>
-         <history>
-            <origin>
-               <origDate notBefore="" notAfter="">–</origDate>
-               <p/>
-            </origin>
-            <ab type="remarks"/>
-         </history>
-         <additional>
-            <adminInfo>
-               <availability>
-                  <licence>
-                     <p/>
-                  </licence>
-               </availability>
-            </adminInfo>
-            <listBibl/>
-         </additional>
-      </object>
-      <object xml:id="Corpus to which the inscription pertains" type="">
-         <objectIdentifier>
-            <objectName xml:lang="" xml:id="n1">Licence applicable to metadata</objectName>
-            <objectName type="normalized" corresp="#n1"/>
-            <idno/>
-         </objectIdentifier>
-         <physDesc>
-            <objectDesc>
-               <supportDesc>
-                  <support>
-                     <material/>
-                  </support>
-                  <condition/>
-               </supportDesc>
-            </objectDesc>
-            <decoDesc>
-               <p/>
-            </decoDesc>
-         </physDesc>
-         <history>
-            <origin>
-               <origDate notBefore="" notAfter="">–</origDate>
-               <p/>
-            </origin>
-            <ab type="remarks"/>
-         </history>
-         <additional>
-            <adminInfo>
-               <availability>
-                  <licence>
-                     <p/>
-                  </licence>
-               </availability>
-            </adminInfo>
-            <listBibl/>
-         </additional>
-      </object>
-      <object xml:id="Global diameter"
-              type="Gregorian calendar Description of what is known or recorded about the origin and subsequent history of the monument (free text)">
-         <objectIdentifier>
-            <objectName xml:lang="" xml:id="n1">Global circumference</objectName>
-            <objectName type="normalized" corresp="#n1">Gregorian calendar</objectName>
-            <idno/>
-         </objectIdentifier>
-         <physDesc>
-            <objectDesc>
-               <supportDesc>
-                  <support>
-                     <material>Remarks on monument-related metadata (free text)</material>
-                     <dimensions>
-                        <height>Coordindates if you have a specific topographic data</height>
-                        <width>Coordindates if you have a specific topographic data</width>
-                        <depth>Inventory number(s) of the monument</depth>
-                        <dim type="diameter">The governmental holder of (property) rights to the monument</dim>
-                        <dim type="circumference">Institution or private person authorizing access to the monument</dim>
-                     </dimensions>
-                  </support>
-                  <condition>Licence applicable to the monument</condition>
-               </supportDesc>
-            </objectDesc>
-            <decoDesc>
-               <p>ID of the place (from places' authority list)</p>
-            </decoDesc>
-         </physDesc>
-         <history>
-            <origin>
-               <origDate notBefore="" notAfter="">–</origDate>
-               <p/>
-            </origin>
-            <ab type="remarks"/>
-         </history>
-         <additional>
-            <adminInfo>
-               <availability>
-                  <licence>
-                     <p/>
-                  </licence>
-               </availability>
-            </adminInfo>
-            <listBibl/>
-         </additional>
-      </object>
-      <object xml:id="MON01000" type="">
-         <objectIdentifier>
-            <objectName xml:lang="" xml:id="n1"/>
-            <objectName type="normalized" corresp="#n1"/>
-            <idno/>
-         </objectIdentifier>
-         <physDesc>
-            <objectDesc>
-               <supportDesc>
-                  <support>
-                     <material/>
-                  </support>
-                  <condition/>
-               </supportDesc>
-            </objectDesc>
-            <decoDesc>
-               <p/>
-            </decoDesc>
-         </physDesc>
-         <history>
-            <origin>
-               <origDate notBefore="" notAfter="">–</origDate>
-               <p/>
-            </origin>
-            <ab type="remarks"/>
-         </history>
-         <additional>
-            <adminInfo>
-               <availability>
-                  <licence>
-                     <p/>
-                  </licence>
-               </availability>
-            </adminInfo>
             <listBibl/>
          </additional>
       </object>
@@ -74170,229 +73910,6 @@
             </objectDesc>
             <decoDesc>
                <p/>
-            </decoDesc>
-         </physDesc>
-         <history>
-            <origin>
-               <origDate notBefore="" notAfter="">–</origDate>
-               <p/>
-            </origin>
-            <ab type="remarks"/>
-         </history>
-         <additional>
-            <adminInfo>
-               <availability>
-                  <licence>
-                     <p/>
-                  </licence>
-               </availability>
-            </adminInfo>
-            <listBibl>
-               <bibl>
-                  <ptr target="bib:Fields group"/>
-               </bibl>
-            </listBibl>
-         </additional>
-      </object>
-      <object xml:id="" type="">
-         <objectIdentifier>
-            <objectName xml:lang="" xml:id="n1"/>
-            <objectName type="normalized" corresp="#n1"/>
-            <idno/>
-            <placeName>
-               <settlement ref="">Location</settlement>
-            </placeName>
-         </objectIdentifier>
-         <physDesc>
-            <objectDesc>
-               <supportDesc>
-                  <support>
-                     <material/>
-                     <dimensions>
-                        <height>Monument dimensions</height>
-                     </dimensions>
-                  </support>
-                  <condition/>
-               </supportDesc>
-            </objectDesc>
-            <decoDesc>
-               <p/>
-            </decoDesc>
-         </physDesc>
-         <history>
-            <origin>
-               <origDate notBefore="" notAfter="">–</origDate>
-               <p/>
-            </origin>
-            <ab type="remarks"/>
-         </history>
-         <additional>
-            <adminInfo>
-               <availability>
-                  <p>Governmental rights holder: Rights</p>
-                  <licence>
-                     <p/>
-                  </licence>
-               </availability>
-            </adminInfo>
-            <listBibl/>
-         </additional>
-      </object>
-      <object xml:id="Identifier of the monument"
-              type="Monument type 1 Monument type 2">
-         <objectIdentifier>
-            <objectName xml:lang="" xml:id="n1">Name of the monument</objectName>
-            <objectName type="normalized" corresp="#n1">Name of the monument</objectName>
-            <idno>Inventory number</idno>
-            <placeName>
-               <settlement ref="Place ID">Name of the place</settlement>
-               <geo>Location coordinates (latitude) Location coordinates (longitude)</geo>
-            </placeName>
-         </objectIdentifier>
-         <physDesc>
-            <objectDesc>
-               <supportDesc>
-                  <support>
-                     <material>Material type 1</material>
-                     <material>Material type 2</material>
-                     <dimensions>
-                        <height>Height</height>
-                        <width>Width</width>
-                        <depth>Depth</depth>
-                        <dim type="diameter">Diameter</dim>
-                        <dim type="circumference">Circumference</dim>
-                     </dimensions>
-                  </support>
-                  <condition>Condition</condition>
-               </supportDesc>
-            </objectDesc>
-            <decoDesc>
-               <p>Iconography and decoration</p>
-            </decoDesc>
-         </physDesc>
-         <history>
-            <origin>
-               <origDate notBefore="Date (notBefore)" notAfter="Date (notAfter)">Date (notBefore)–Date (notAfter)</origDate>
-               <p>History of the monument</p>
-            </origin>
-            <ab type="remarks">Remarks</ab>
-         </history>
-         <additional>
-            <adminInfo>
-               <availability>
-                  <p>Governmental rights holder: Governmental rights holder</p>
-                  <p>Institution or private person right holder: Institution or private person</p>
-                  <licence>
-                     <p>Distribution rights of the monument</p>
-                  </licence>
-               </availability>
-            </adminInfo>
-            <listBibl>
-               <bibl>
-                  <ptr target="bib:Bibliographical references"/>
-               </bibl>
-            </listBibl>
-         </additional>
-      </object>
-      <object xml:id="" type="">
-         <objectIdentifier>
-            <objectName xml:lang="" xml:id="n1"/>
-            <objectName type="normalized" corresp="#n1"/>
-            <idno/>
-         </objectIdentifier>
-         <physDesc>
-            <objectDesc>
-               <supportDesc>
-                  <support>
-                     <material/>
-                  </support>
-                  <condition/>
-               </supportDesc>
-            </objectDesc>
-            <decoDesc>
-               <p/>
-            </decoDesc>
-         </physDesc>
-         <history>
-            <origin>
-               <origDate notBefore="" notAfter="">–</origDate>
-               <p/>
-            </origin>
-            <ab type="remarks"/>
-         </history>
-         <additional>
-            <adminInfo>
-               <availability>
-                  <licence>
-                     <p/>
-                  </licence>
-               </availability>
-            </adminInfo>
-            <listBibl/>
-         </additional>
-      </object>
-      <object xml:id="Corpus to which the inscription pertains" type="">
-         <objectIdentifier>
-            <objectName xml:lang="" xml:id="n1">Licence applicable to metadata</objectName>
-            <objectName type="normalized" corresp="#n1"/>
-            <idno/>
-         </objectIdentifier>
-         <physDesc>
-            <objectDesc>
-               <supportDesc>
-                  <support>
-                     <material/>
-                  </support>
-                  <condition/>
-               </supportDesc>
-            </objectDesc>
-            <decoDesc>
-               <p/>
-            </decoDesc>
-         </physDesc>
-         <history>
-            <origin>
-               <origDate notBefore="" notAfter="">–</origDate>
-               <p/>
-            </origin>
-            <ab type="remarks"/>
-         </history>
-         <additional>
-            <adminInfo>
-               <availability>
-                  <licence>
-                     <p/>
-                  </licence>
-               </availability>
-            </adminInfo>
-            <listBibl/>
-         </additional>
-      </object>
-      <object xml:id="Global diameter"
-              type="Gregorian calendar Description of what is known or recorded about the origin and subsequent history of the monument (free text)">
-         <objectIdentifier>
-            <objectName xml:lang="" xml:id="n1">Global circumference</objectName>
-            <objectName type="normalized" corresp="#n1">Gregorian calendar</objectName>
-            <idno/>
-         </objectIdentifier>
-         <physDesc>
-            <objectDesc>
-               <supportDesc>
-                  <support>
-                     <material>Remarks on monument-related metadata (free text)</material>
-                     <dimensions>
-                        <height>Coordindates if you have a specific topographic data</height>
-                        <width>Coordindates if you have a specific topographic data</width>
-                        <depth>Inventory number(s) of the monument</depth>
-                        <dim type="diameter">The governmental holder of (property) rights to the monument</dim>
-                        <dim type="circumference">Institution or private person authorizing access to the monument</dim>
-                     </dimensions>
-                  </support>
-                  <condition>Licence applicable to the monument</condition>
-               </supportDesc>
-            </objectDesc>
-            <decoDesc>
-               <p>ID of the place (from places' authority list)</p>
             </decoDesc>
          </physDesc>
          <history>
@@ -111377,6 +110894,43 @@
          </additional>
       </object>
       <object xml:id="MON02999" type="">
+         <objectIdentifier>
+            <objectName xml:lang="" xml:id="n1"/>
+            <objectName type="normalized" corresp="#n1"/>
+            <idno/>
+         </objectIdentifier>
+         <physDesc>
+            <objectDesc>
+               <supportDesc>
+                  <support>
+                     <material/>
+                  </support>
+                  <condition/>
+               </supportDesc>
+            </objectDesc>
+            <decoDesc>
+               <p/>
+            </decoDesc>
+         </physDesc>
+         <history>
+            <origin>
+               <origDate notBefore="" notAfter="">–</origDate>
+               <p/>
+            </origin>
+            <ab type="remarks"/>
+         </history>
+         <additional>
+            <adminInfo>
+               <availability>
+                  <licence>
+                     <p/>
+                  </licence>
+               </availability>
+            </adminInfo>
+            <listBibl/>
+         </additional>
+      </object>
+      <object xml:id="" type="">
          <objectIdentifier>
             <objectName xml:lang="" xml:id="n1"/>
             <objectName type="normalized" corresp="#n1"/>

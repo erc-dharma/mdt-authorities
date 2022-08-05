@@ -13987,97 +13987,6 @@
       </listRelation>
    </listPerson>
    <listPerson>
-      <person xml:id="" role="" sex="">
-         <persName xml:lang="" xml:id="n1" role=""/>
-         <occupation/>
-         <birth notBefore="" notAfter="">–</birth>
-         <death notBefore="Life Events" notAfter="">Life Events–</death>
-         <floruit/>
-         <listBibl/>
-      </person>
-      <listRelation>
-         <relation name="" passive="" active=""/>
-         <relation name="" passive="Relationships with the text" active=""/>
-      </listRelation>
-   </listPerson>
-   <listPerson>
-      <person xml:id="Identifier" role="Type_of_Person" sex="Sex" sameAs="">
-         <persName xml:lang="" xml:id="n1" role="Type">Name</persName>
-         <occupation>Death notAfter</occupation>
-         <birth notBefore="Type of Person" notAfter="Death notBefore">Type of Person–Death notBefore</birth>
-         <death notBefore="Birth notBefore" notAfter="Birth notAfter">Birth notBefore–Birth notAfter</death>
-         <floruit>Death notAfter</floruit>
-         <listBibl>
-            <bibl>
-               <ptr target="bib:Occupation"/>
-            </bibl>
-         </listBibl>
-      </person>
-      <listRelation>
-         <relation name="Bibliography" passive="Floruit" active="Identifier"/>
-         <relation name="Relationship description"
-                   passive="Identifier of the text"
-                   active="Identifier"/>
-      </listRelation>
-   </listPerson>
-   <listPerson>
-      <person xml:id="" role="" sex="">
-         <persName xml:lang="" xml:id="n1" role=""/>
-         <occupation/>
-         <birth notBefore="" notAfter="">–</birth>
-         <death notBefore="" notAfter="">–</death>
-         <floruit/>
-         <listBibl/>
-      </person>
-      <listRelation>
-         <relation name="" passive="" active=""/>
-         <relation name="" passive="" active=""/>
-      </listRelation>
-   </listPerson>
-   <listPerson>
-      <person xml:id="Corpus to which the inscription pertains"
-              role="&#34;Qualify_the_previous_name"
-              sex="Define the language of the previous name"
-              sameAs="">
-         <persName xml:lang=""
-                   xml:id="n1"
-                   role="Name_of_the_person_as_found_in_the_file.">Licence applicable to metadata</persName>
-         <occupation>Maximum date of birth</occupation>
-         <birth notBefore="&#34;Qualify the previous name"
-                notAfter="Code to be defined depending our use">"Qualify the previous name–Code to be defined depending our use</birth>
-         <death notBefore=" value from a closed list&#34;"
-                notAfter="Type of Person. Value to be chosen from a closed list for Keyword purposes"> value from a closed list"–Type of Person. Value to be chosen from a closed list for Keyword purposes</death>
-         <floruit>Maximum date of birth</floruit>
-         <listBibl>
-            <bibl>
-               <ptr target="bib:Maximum date of death"/>
-            </bibl>
-         </listBibl>
-      </person>
-      <listRelation>
-         <relation name="Minimum date of Death"
-                   passive="Minimum date of Birth"
-                   active="Corpus to which the inscription pertains"/>
-         <relation name="Possibility to give information (free text) about a person's period of activity. Could be used for a biographic."
-                   passive="Equivalent of &lt;roleName&gt;"
-                   active="Corpus to which the inscription pertains"/>
-      </listRelation>
-   </listPerson>
-   <listPerson>
-      <person xml:id="PSN01000" role="" sex="">
-         <persName xml:lang="" xml:id="n1" role="Somavaṁśin_king">Śivaguptadeva</persName>
-         <occupation/>
-         <birth notBefore="" notAfter="">–</birth>
-         <death notBefore="" notAfter="">–</death>
-         <floruit/>
-         <listBibl/>
-      </person>
-      <listRelation>
-         <relation name="" passive="" active="PSN01000"/>
-         <relation name="" passive="" active="PSN01000"/>
-      </listRelation>
-   </listPerson>
-   <listPerson>
       <person xml:id="PSN01001" role="" sex="">
          <persName xml:lang="" xml:id="n1" role="Somavaṁśin_king">Mahābhavagupta I Janamejaya</persName>
          <occupation/>
@@ -28061,83 +27970,6 @@
       <listRelation>
          <relation name="" passive="" active="PSN01999"/>
          <relation name="" passive="" active="PSN01999"/>
-      </listRelation>
-   </listPerson>
-   <listPerson>
-      <person xml:id="" role="" sex="">
-         <persName xml:lang="" xml:id="n1" role=""/>
-         <occupation/>
-         <birth notBefore="" notAfter="">–</birth>
-         <death notBefore="Life Events" notAfter="">Life Events–</death>
-         <floruit/>
-         <listBibl/>
-      </person>
-      <listRelation>
-         <relation name="" passive="" active=""/>
-         <relation name="" passive="Relationships with the text" active=""/>
-      </listRelation>
-   </listPerson>
-   <listPerson>
-      <person xml:id="Identifier" role="Type_of_Person" sex="Sex" sameAs="">
-         <persName xml:lang="" xml:id="n1" role="Type">Name</persName>
-         <occupation>Death notAfter</occupation>
-         <birth notBefore="Type of Person" notAfter="Death notBefore">Type of Person–Death notBefore</birth>
-         <death notBefore="Birth notBefore" notAfter="Birth notAfter">Birth notBefore–Birth notAfter</death>
-         <floruit>Death notAfter</floruit>
-         <listBibl>
-            <bibl>
-               <ptr target="bib:Occupation"/>
-            </bibl>
-         </listBibl>
-      </person>
-      <listRelation>
-         <relation name="Bibliography" passive="Floruit" active="Identifier"/>
-         <relation name="Relationship description"
-                   passive="Identifier of the text"
-                   active="Identifier"/>
-      </listRelation>
-   </listPerson>
-   <listPerson>
-      <person xml:id="" role="" sex="">
-         <persName xml:lang="" xml:id="n1" role=""/>
-         <occupation/>
-         <birth notBefore="" notAfter="">–</birth>
-         <death notBefore="" notAfter="">–</death>
-         <floruit/>
-         <listBibl/>
-      </person>
-      <listRelation>
-         <relation name="" passive="" active=""/>
-         <relation name="" passive="" active=""/>
-      </listRelation>
-   </listPerson>
-   <listPerson>
-      <person xml:id="Corpus to which the inscription pertains"
-              role="&#34;Qualify_the_previous_name"
-              sex="Define the language of the previous name"
-              sameAs="">
-         <persName xml:lang=""
-                   xml:id="n1"
-                   role="Name_of_the_person_as_found_in_the_file.">Licence applicable to metadata</persName>
-         <occupation>Maximum date of birth</occupation>
-         <birth notBefore="&#34;Qualify the previous name"
-                notAfter="Code to be defined depending our use">"Qualify the previous name–Code to be defined depending our use</birth>
-         <death notBefore=" value from a closed list&#34;"
-                notAfter="Type of Person. Value to be chosen from a closed list for Keyword purposes"> value from a closed list"–Type of Person. Value to be chosen from a closed list for Keyword purposes</death>
-         <floruit>Maximum date of birth</floruit>
-         <listBibl>
-            <bibl>
-               <ptr target="bib:Maximum date of death"/>
-            </bibl>
-         </listBibl>
-      </person>
-      <listRelation>
-         <relation name="Minimum date of Death"
-                   passive="Minimum date of Birth"
-                   active="Corpus to which the inscription pertains"/>
-         <relation name="Possibility to give information (free text) about a person's period of activity. Could be used for a biographic."
-                   passive="Equivalent of &lt;roleName&gt;"
-                   active="Corpus to which the inscription pertains"/>
       </listRelation>
    </listPerson>
    <listPerson>
@@ -42138,6 +41970,20 @@
       <listRelation>
          <relation name="" passive="" active="PSN02999"/>
          <relation name="" passive="" active="PSN02999"/>
+      </listRelation>
+   </listPerson>
+   <listPerson>
+      <person xml:id="" role="" sex="">
+         <persName xml:lang="" xml:id="n1" role=""/>
+         <occupation/>
+         <birth notBefore="" notAfter="">–</birth>
+         <death notBefore="" notAfter="">–</death>
+         <floruit/>
+         <listBibl/>
+      </person>
+      <listRelation>
+         <relation name="" passive="" active=""/>
+         <relation name="" passive="" active=""/>
       </listRelation>
    </listPerson>
 </File>
