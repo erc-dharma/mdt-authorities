@@ -1,9 +1,3 @@
-Fields group,Management of the resource,,,,,,,,,,,Authority list of places,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,Location,,,,,,,,,,,,,,
-Fields,Identifier of the resource,Origin of the metadata,DHARMA import,Editor of the metadata,Date of the edition,Contributor of the metadata,Reviewer,Date of review,Project,Corpus,Distribution rights of the metadata,Identifier of the place,Name of the place,Language,Name of the place,Type of place,Date notBefore,Country,State,Province,District,Subdistrict,City/Village,Hamlet,Site,Coordinates latitude,Coordinates longitude,Coordinates elevation,Polygon,History of the place,Remarks,Bibliographical references
-Description of the fields,"Identifier of the place. 
- Syntax: PLC00001 (according to the DHARMA FNC)",Origin of the metadata: database or publication,Date of conversion of previously available metadata to the DHARMA model,"Person(s) who supplied metadata (use the DHARMA members' Ids and separate them by $, if more than one editor)",Start date of metadata input/editing for DHARMA (YYYY-MM-DD),"Person(s) who entered/edited metadata (use the DHARMA members' Ids and separate them by $, if more than one editor)","Validating person (use the DHARMA members' Ids and separate them by $, if more than one editor)",Date of metadata validation (YYYY-MM-DD),Project responsible for making these metadata available,Corpus to which the inscription pertains,Licence applicable to metadata,"Identifier of the place. 
- Syntax: PLC00001 (according to the DHARMA FNC)",Name of the place,Define the language of the name,normalized syntax,,Begining of activity,,,,,,,,,,,,,Description of what is known or recorded about the origin and subsequent history of the place (free text),Remarks on place-related metadata (free text),
 ,PLC02000,,,,,,,,,DHARMA,CC0,PLC02000,,,,,,,,,,,,,,,,,,,,
 ,PLC02001,,,,,,,,,DHARMA,CC0,PLC02001,,,,,,,,,,,,,,,,,,,,
 ,PLC02002,,,,,,,,,DHARMA,CC0,PLC02002,,,,,,,,,,,,,,,,,,,,
