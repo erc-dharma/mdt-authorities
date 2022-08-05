@@ -1,4 +1,4 @@
-name: XML Splitting
+name: Display authorities
 
 on:
   workflow_run:
