@@ -42,4 +42,8 @@
   <xslt in="./temporary/DHARMA_places.xml" out="./output/DHARMA_places.html" force="true" style="./project-documentation/stylesheets/mdt-authorities/Places-start.xsl" extension=".html" useImplicitFileset="false" classpath="./project-documentation/editorialStylesheets/pipelineTools/saxon9he.jar">
       <factory name="net.sf.saxon.TransformerFactoryImpl"/>
   </xslt>
+
+  <xslt in="./temporary/DHARMA_collections.xml" out="./output/DHARMA_collections.html" force="true" style="./project-documentation/stylesheets/mdt-authorities/Collections-start.xsl" extension=".html" useImplicitFileset="false" classpath="./project-documentation/editorialStylesheets/pipelineTools/saxon9he.jar">
+      <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+  </xslt>
 </project>
