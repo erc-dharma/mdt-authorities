@@ -1,42 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <File>
    <listPerson>
-      <person xml:id="PSN00001" role="" sex="">
-         <resourceManagement>
-            <resourceID>PSN00001</resourceID>
-            <metadataOrigin/>
-            <metadataEditor>
-               <change when="" who="part:emfr">
-                                        import of medadata
-                                    </change>
-            </metadataEditor>
-            <metadataContribution>
-               <change when="2021-10-28" who="">
-                                        Contributions made in medadata
-                                    </change>
-            </metadataContribution>
-            <metadataReview>
-               <change when="" who="">
-                                        Reviews of medadata
-                                    </change>
-            </metadataReview>
-            <project/>
-            <corpus>DHARMA</corpus>
-            <metadataRights>CC0</metadataRights>
-         </resourceManagement>
-         <persName xml:lang="san" xml:id="n1" role="Pallava_king">Mahendravarman I</persName>
-         <occupation/>
-         <birth notBefore="" notAfter="630">–630</birth>
-         <death notBefore="590" notAfter="">590–</death>
-         <floruit/>
-         <listBibl/>
-      </person>
-      <listRelation>
-         <relation name="" passive="" active="PSN00001"/>
-         <relation name="" passive="" active="PSN00001"/>
-      </listRelation>
-   </listPerson>
-   <listPerson>
       <person xml:id="PSN00002" role="" sex="">
          <resourceManagement>
             <resourceID>PSN00002</resourceID>
@@ -35962,6 +35926,42 @@
       <listRelation>
          <relation name="" passive="" active="PSN00999"/>
          <relation name="" passive="" active="PSN00999"/>
+      </listRelation>
+   </listPerson>
+   <listPerson>
+      <person xml:id="PSN01000" role="" sex="">
+         <resourceManagement>
+            <resourceID>PSN01000</resourceID>
+            <metadataOrigin/>
+            <metadataEditor>
+               <change when="" who="part:amwb">
+                                        import of medadata
+                                    </change>
+            </metadataEditor>
+            <metadataContribution>
+               <change when="2022-05-19" who="">
+                                        Contributions made in medadata
+                                    </change>
+            </metadataContribution>
+            <metadataReview>
+               <change when="" who="">
+                                        Reviews of medadata
+                                    </change>
+            </metadataReview>
+            <project/>
+            <corpus>DHARMA</corpus>
+            <metadataRights>CC0</metadataRights>
+         </resourceManagement>
+         <persName xml:lang="" xml:id="n1" role="Somavaṁśin_king">Śivaguptadeva</persName>
+         <occupation/>
+         <birth notBefore="" notAfter="">–</birth>
+         <death notBefore="" notAfter="">–</death>
+         <floruit/>
+         <listBibl/>
+      </person>
+      <listRelation>
+         <relation name="" passive="" active="PSN01000"/>
+         <relation name="" passive="" active="PSN01000"/>
       </listRelation>
    </listPerson>
    <listPerson>

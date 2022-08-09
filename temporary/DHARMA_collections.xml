@@ -1,80 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <File>
    <listPlace>
-      <place xml:id="COL00001" type="">
-         <resourceManagement>
-            <resourceID>COL00001</resourceID>
-            <metadataOrigin/>
-            <metadataEditor>
-               <change when="" who="part:emfr">
-                                    import of medadata
-                                </change>
-            </metadataEditor>
-            <metadataContribution>
-               <change when="2021-10-28" who="">
-                                    Contributions made in medadata
-                                </change>
-            </metadataContribution>
-            <metadataReview>
-               <change when="" who="">
-                                    Reviews of medadata
-                                </change>
-            </metadataReview>
-            <project/>
-            <corpus>DHARMA</corpus>
-            <metadataRights>CC0</metadataRights>
-         </resourceManagement>
-         <placeName xml:id="n1"/>
-         <settlement ref=""/>
-         <orgName/>
-         <orgName/>
-         <orgName/>
-         <note>
-            <date type="foundation" notBefore=""/>
-            <ab type="history"/>
-         </note>
-         <listBibl/>
-         <note>
-            <ab type="remark"/>
-         </note>
-      </place>
-      <place xml:id="COL00002" type="">
-         <resourceManagement>
-            <resourceID>COL00002</resourceID>
-            <metadataOrigin/>
-            <metadataEditor>
-               <change when="" who="part:emfr">
-                                    import of medadata
-                                </change>
-            </metadataEditor>
-            <metadataContribution>
-               <change when="2021-10-28" who="">
-                                    Contributions made in medadata
-                                </change>
-            </metadataContribution>
-            <metadataReview>
-               <change when="" who="">
-                                    Reviews of medadata
-                                </change>
-            </metadataReview>
-            <project/>
-            <corpus>DHARMA</corpus>
-            <metadataRights>CC0</metadataRights>
-         </resourceManagement>
-         <placeName xml:id="n1"/>
-         <settlement ref=""/>
-         <orgName/>
-         <orgName/>
-         <orgName/>
-         <note>
-            <date type="foundation" notBefore=""/>
-            <ab type="history"/>
-         </note>
-         <listBibl/>
-         <note>
-            <ab type="remark"/>
-         </note>
-      </place>
       <place xml:id="COL00003" type="">
          <resourceManagement>
             <resourceID>COL00003</resourceID>
@@ -36949,6 +36875,43 @@
             <project/>
             <corpus>DHARMA</corpus>
             <metadataRights>CC0</metadataRights>
+         </resourceManagement>
+         <placeName xml:id="n1"/>
+         <settlement ref=""/>
+         <orgName/>
+         <orgName/>
+         <orgName/>
+         <note>
+            <date type="foundation" notBefore=""/>
+            <ab type="history"/>
+         </note>
+         <listBibl/>
+         <note>
+            <ab type="remark"/>
+         </note>
+      </place>
+      <place xml:id="" type="">
+         <resourceManagement>
+            <resourceID/>
+            <metadataOrigin/>
+            <metadataEditor>
+               <change when="" who="">
+                                    import of medadata
+                                </change>
+            </metadataEditor>
+            <metadataContribution>
+               <change when="" who="">
+                                    Contributions made in medadata
+                                </change>
+            </metadataContribution>
+            <metadataReview>
+               <change when="" who="">
+                                    Reviews of medadata
+                                </change>
+            </metadataReview>
+            <project/>
+            <corpus/>
+            <metadataRights/>
          </resourceManagement>
          <placeName xml:id="n1"/>
          <settlement ref=""/>
