@@ -1,0 +1,42 @@
+name: Cleaning comma for Authorities
+
+on:
+  workflow_run:
+    workflows: ["CSV to XML for Authorities"]
+    types:
+      - completed
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+       - uses: actions/checkout@v3
+       - name: Set up JDK 1.8
+         uses: actions/setup-java@v3
+         with:
+           distribution: 'zulu'
+           java-version: '17'
+       - name: Clone project-doc with Ant
+         run: ant -noinput -buildfile clone-projectDoc.xml
+
+       - name: run xslt to clean comma with java in command lines for places
+         run: java -jar ./project-documentation/editorialStylesheets/pipelineTools/saxon9he.jar -s:./temporary/DHARMA_places.xml -xsl:./project-documentation/stylesheets/mdt_inscriptions/mdt_CommaCleaning.xsl -o:./temporary/DHARMA_places.xml
+
+       - name: run xslt to clean comma with java in command lines for persons
+         run: java -jar ./project-documentation/editorialStylesheets/pipelineTools/saxon9he.jar -s:./temporary/DHARMA_persons.xml -xsl:./project-documentation/stylesheets/mdt_inscriptions/mdt_CommaCleaning.xsl -o:./temporary/DHARMA_persons.xml
+
+       - name: run xslt to clean comma with java in command lines for monuments
+         run: java -jar ./project-documentation/editorialStylesheets/pipelineTools/saxon9he.jar -s:./temporary/DHARMA_monuments.xml -xsl:./project-documentation/stylesheets/mdt_inscriptions/mdt_CommaCleaning.xsl -o:./temporary/DHARMA_monuments.xml
+
+       - name: run xslt to clean comma with java in command lines for collections
+         run: java -jar ./project-documentation/editorialStylesheets/pipelineTools/saxon9he.jar -s:./temporary/DHARMA_collections.xml -xsl:./project-documentation/stylesheets/mdt_inscriptions/mdt_CommaCleaning.xsl -o:./temporary/DHARMA_collections.xml
+
+       - name: Updating the cleaned files for Authorities
+         run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add temporary/
+          git commit -m "Cleaning comma has been successfully done for Authorities"
+          git push

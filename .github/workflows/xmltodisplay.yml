@@ -2,7 +2,7 @@ name: Display authorities
 
 on:
   workflow_run:
-    workflows: ["CSV to XML for Authorities"]
+    workflows: ["Cleaning comma for Authorities"]
     types:
       - completed
 
@@ -21,7 +21,7 @@ jobs:
        - name: Making xml into html with Ant
          run: ant -noinput -buildfile build_to_display.xml
 
-       - name: Updating the edited texts in the repository
+       - name: Updating the output for authorities in the repository
          run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
